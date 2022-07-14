@@ -1,8 +1,11 @@
+import { BrowserRouter } from "react-router-dom";
 import "./App.css";
-import {Switch , Bro} from "react-router-dom";
 
-const App = () => {
-  return <div>App</div>;
-};
-
+function App() {
+  return(
+    <BrowserRouter>
+      
+    </BrowserRouter>
+  )
+}
 export default App;
